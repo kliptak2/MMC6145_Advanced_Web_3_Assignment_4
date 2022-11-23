@@ -1,0 +1,209 @@
+/*
+Theme Name: Assignment 4 Theme
+Theme URI: 
+Author: Kate Liptak
+Author URI: https://kateliptak.com
+Description: This is my assignment
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: assignment_4_theme
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+/*==================================
+
+  Fonts
+
+=====================================*/
+h1 {
+  font-family: "Lora", serif;
+  color: #160f29;
+  padding-bottom: 5px;
+  font-size: 36px;
+}
+h2 {
+  font-family: "Lora", serif;
+  color: #160f29;
+  padding-bottom: 5px;
+  font-weight: lighter;
+  font-size: 26px;
+}
+
+h3 {
+  font-family: "Open Sans", sans-serif;
+  color: #ce4760;
+  text-decoration: underline;
+  font-size: 22px;
+}
+
+h4,
+h5,
+h6,
+p {
+  font-family: "Open Sans", sans-serif;
+  color: #160f29;
+}
+
+a {
+  text-decoration-line: none;
+}
+a:hover {
+  text-decoration: underline;
+  color: #160f29;
+}
+
+/*==================================
+
+  Header
+
+=====================================*/
+header {
+  background: #ffffff;
+}
+
+.logo-container {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.logo {
+  max-width: 300px;
+  object-fit: contain;
+  height: auto;
+}
+
+div#mega-menu-wrap-main-menu {
+  width: 100%;
+  background: #ffffff;
+  font-family: "Lora", serif;
+}
+
+div#mega-menu-wrap-main-menu a {
+  color: #160f29 !important;
+}
+
+/*#mega-menu-wrap-main-menu
+  #mega-menu-main-menu
+  > li.mega-menu-item.mega-current-menu-item
+  > a.mega-menu-link {
+  background: transparent !important;
+  border-bottom: 1px solid #160f29 !important;
+  display: inline-block;
+}
+
+/*==================================
+
+  Home Page
+
+=====================================*/
+.column-top-right {
+  background-color: #b5d2dd;
+  padding: 220px 35px;
+  font-weight: bold;
+}
+
+.column-top-right p {
+  font-size: 20px;
+}
+
+.column-bottom-left {
+  background-color: #b5d2dd;
+  padding: 15px;
+}
+
+figure {
+  margin: 0 !important;
+}
+
+figure img {
+  width: 100%;
+}
+/*==================================
+
+  Page-Cards
+
+=====================================*/
+.card-column {
+  min-height: 900px;
+  background-color: #b5d2dd;
+  margin: 0 10px;
+}
+
+.card-column figure {
+  padding-bottom: 20px;
+}
+.card-column p {
+  padding: 0 10px;
+}
+.card-column h2 {
+  padding: 0 40px;
+}
+/*==================================
+
+  Contact Us
+
+=====================================*/
+main.container.contact {
+  background: #ffffff;
+  background-image: url(images/contact_us.png);
+  margin: 20px auto;
+  padding: 50px 0;
+  background-position: center;
+}
+
+.contact-text {
+  background-color: #ffffff;
+  max-width: 900px;
+  padding: 20px;
+  margin: 50px auto;
+  min-height: 400px;
+}
+
+/*.contact-button {
+  background-color: #b5d2dd;
+  font-family: "Lora", serif;
+  color: #160f29;
+}*/
+
+button#wpforms-submit-62 {
+  background: #b5d2dd;
+}
+
+div.wpforms-container-full {
+  max-width: 400px;
+}
+/*==================================
+
+  Single Posts
+
+=====================================*/
+.featured-image img {
+  width: 100%;
+  object-fit: cover;
+}
+
+figure {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 40px;
+  margin-inline-end: 40px;
+}
+
+/*.featured.image img {
+  width: 100%;
+  object-fit: cover;
+}*/
+/*==================================
+
+  Footer
+
+=====================================*/
+footer {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
