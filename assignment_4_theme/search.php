@@ -18,7 +18,7 @@
                     <?php }//end while
 
                     //Pagination
-                    proPhotographyPagination();
+                    pagination();
                 }else{ ?>
                     <div class="col-lg-12">
                         <?php 

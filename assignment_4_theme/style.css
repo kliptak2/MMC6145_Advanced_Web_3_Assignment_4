@@ -121,6 +121,7 @@ figure {
 figure img {
   width: 100%;
 }
+
 /*==================================
 
   Page-Cards
@@ -141,6 +142,7 @@ figure img {
 .card-column h2 {
   padding: 0 40px;
 }
+
 /*==================================
 
   Contact Us
@@ -162,24 +164,57 @@ main.container.contact {
   min-height: 400px;
 }
 
-/*.contact-button {
-  background-color: #b5d2dd;
-  font-family: "Lora", serif;
-  color: #160f29;
-}*/
-
 button#wpforms-submit-62 {
   background: #b5d2dd;
+  font-family: "Lora", serif;
+  color: #160f29;
+  font-weight: bold;
 }
 
 div.wpforms-container-full {
   max-width: 400px;
+}
+
+/*==================================
+
+Blog Page
+
+=====================================*/
+.row.blog {
+  padding: 0 70px;
+  margin: 20px;
+}
+
+.individual-post {
+  padding-right: 50px;
+  padding-bottom: 30px;
+}
+
+aside.col-md-3 {
+  background: #b5d2dd;
+  padding: 20px;
+}
+
+aside h2 {
+  padding-top: 10px;
+}
+.sidebar-widget-container {
+  padding-bottom: 10px;
+}
+
+form.wp-block-search__button-outside.wp-block-search__text-button.wp-block-search {
+  font-family: "Lora", serif;
 }
 /*==================================
 
   Single Posts
 
 =====================================*/
+.featured-image {
+  display: flex;
+  justify-content: center;
+}
+
 .featured-image img {
   width: 100%;
   object-fit: cover;
@@ -193,10 +228,9 @@ figure {
   margin-inline-end: 40px;
 }
 
-/*.featured.image img {
-  width: 100%;
-  object-fit: cover;
-}*/
+.container-single {
+  margin: 0 auto;
+}
 /*==================================
 
   Footer

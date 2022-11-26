@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<div class="row">
+<div class="row blog">
     <main class="container col-md-9">
         <?php 
             if(have_posts()){
